@@ -1,0 +1,2 @@
+# 02_DepositoERC20
+ Este contrato permite a cuentas autorizadas depositar tokens ERC20. Una vez depositados, estos tokens pueden ser distribuidos proporcionalmente entre una lista blanca de direcciones después de un período de espera de 4 semanas. Las cuentas autorizadas pueden agregar direcciones a esta lista blanca y también iniciar el temporizador de espera. Solo el propietario del contrato puede autorizar o revocar cuentas y remover direcciones de la lista blanca.
